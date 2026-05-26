@@ -1,0 +1,33 @@
+{
+    "log_dir" : "./logs/train",
+    "train": {
+      "epochs": 500,
+      "steps_per_epoch": 400,
+      "batch_size": 128,
+      "grad_accum_steps" : 4,
+      "lr": 1e-4,
+      "warmup_epochs": 25,
+      "weight_decay": 1e-2,
+      "use_amp": true,
+      "num_workers": 4
+    },
+    "model": {
+      "emsize": 256,
+      "nlayers": 4,
+      "nhid_factor": 4,
+      "nhead": 4,
+      "dropout": 0.2,
+      "activation": "gelu",
+      "input_normalization": true
+    },
+    "data": {
+      "max_history_len": 50,
+      "max_support_set_size": 16,
+      "num_candidates": 100,
+      "feature_dim": 256
+    },
+    "environment": {
+      "train_gpu_idx": 0,
+      "save_path": "./checkpoint"
+    }
+  }

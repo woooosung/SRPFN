@@ -1,0 +1,9 @@
+{
+    "seed" : 100,
+    "dataset" : "Beauty",
+    "checkpoint" : "checkpoint/srpfn.pt",
+    "device" : "cuda",
+    "batch_size" : 16,
+    "support_set_size" : 16,
+    "mode": "cand"
+}
