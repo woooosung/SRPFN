@@ -68,7 +68,7 @@ bash shell/eval.sh
 
 If you find our work useful, please cite:
 
-```
+```bibtex
 @inproceedings{kang2026srpfn,
   author = {Kang, Woosung and Jeong, Jiwon and Shin, Jonghyeok and Choi, Jeongwhan and Park, Noseong},
   title = {One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets},
