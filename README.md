@@ -61,3 +61,28 @@ Run inference with:
 ```bash
 bash shell/eval.sh
 ```
+
+---
+
+## Citation
+
+If you find our work useful, please cite:
+
+```
+@inproceedings{kang2026srpfn,
+  author = {Kang, Woosung and Jeong, Jiwon and Shin, Jonghyeok and Choi, Jeongwhan and Park, Noseong},
+  title = {One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets},
+  year = {2026},
+  isbn = {9798400722592},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3770855.3818142},
+  doi = {10.1145/3770855.3818142},
+  booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+  pages = {2273--2284},
+  numpages = {12},
+  keywords = {sequential recommendation, posterior predictive distribution},
+  location = {Republic of Korea},
+  series = {KDD '26}
+}
+```
